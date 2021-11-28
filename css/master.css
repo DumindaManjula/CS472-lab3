@@ -1,0 +1,119 @@
+body{
+  font-family: sans-serif;
+}header{
+  border-bottom: 1px solid #f2f2f2;
+}
+/* ===== Index ===== */
+.nopdng{
+  padding: 0;
+}#menu{
+  cursor: pointer;
+}.mrgnLft{
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+}#shpngLogo{
+  font-size: 15px;
+}#inlnBlck{
+  text-align: center;
+}#shoppingBasketContainer{
+  margin-top: 15px;
+}
+.wth{
+  height: 10px;
+  width: 100%;
+}
+
+#shopItem{
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.shopItemGrid{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}.shopItemGrid > li {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #fff;
+  transition: all 500ms ease;
+}.shopItemGrid > li:hover{
+  border: 1px solid #4d4d4d;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+}
+footer{
+  padding: 5px;
+  background: #404040;
+  color: #fff;
+}
+
+#searchBar{
+  width: 550px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0px 0px 4px;
+  padding: 4px;
+}#searchBtn{
+  border: 1px solid #ccc;
+  background: #f2f2f2;
+  padding: 4px 10px;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  transition: all .2s;
+}#searchBtn:hover{
+  background: #ccc;
+  cursor: pointer;
+}
+
+/* ===================== */
+
+.iphone{
+    height: 50px;
+    width: 25px;
+}
+
+.mac{
+    height: 100px;
+    width: 100px;
+}
+
+.macpro{
+    height: 75px;
+    width: 100px;
+}
+
+.ps4{
+    height: 75px;
+    width: 75px;
+}
+
+.microsoft{
+    height: 75px;
+    width: 100px;
+}
+
+.play{
+    height: 75px;
+    width: 75px;
+}
+
+.sony{
+    height: 50px;
+    width: 25px;
+}
+
+.pixel{
+    height: 50px;
+    width: 50px;
+}
+
+.basket{
+    height: 50px;
+    width: 50px;
+}
+
+.banner{
+    height: 100px;
+    width: 500px;
+}
